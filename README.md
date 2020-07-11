@@ -12,7 +12,6 @@ The dataset prepration uses only a sample of dataset. However, full dataset can 
 
 The raw dataset contains information about the properties sold in Victoria, which can be described as follows:
 
-
 |COLUMN |DESCRIPTION|
 |---|---|
 |ID| A unique id for the property|
@@ -27,6 +26,20 @@ The raw dataset contains information about the properties sold in Victoria, whic
 |Age|The age of the property at the time of selling|
 |Latitude|The Latitude of the property|
 |Longitude|The Longitude of the property|
+
+# External data
+
+**gtfs.zip** - Contains the information on travel schedules and routes for trains (PTV) in Victoria.
+
+**vic_suburb_boundary** - Includes shape file of Victoria with suburb boundries and their location.
+
+**council.txt** - Contains information of suburbs for each council.
+
+**crimebylocationdatatable-yearending31march2016.xlxs** - contains all crimes data for VIC.
+
+**school-ranks.html** - Comprises of the information on school ranks.
+
+**schools.xml** - This xml file includes data about schools, their types and locations.  
 
 # Environment setup
 
